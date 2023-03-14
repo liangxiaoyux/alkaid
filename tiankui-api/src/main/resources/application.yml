@@ -1,0 +1,19 @@
+spring:
+  server:
+    port: 8080
+    application:
+      # 应用名称
+      name: tiankui-core
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.31.158:/tiankui?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=GMT
+    username: admin
+    password: Xiaoyu,1996.
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
