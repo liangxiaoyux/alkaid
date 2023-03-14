@@ -30,6 +30,6 @@ public class ProductEntity extends BaseEntity {
     private Integer stateId;
     @Column(name = "customer_id", columnDefinition = "INT COMMENT '客户id'")
     private Integer customerId;
-
-
+    @Column(name = "user_member", columnDefinition = "VARCHAR(128) COMMENT '项目组成员,用分号间隔'")
+    private String userMember;
 }
