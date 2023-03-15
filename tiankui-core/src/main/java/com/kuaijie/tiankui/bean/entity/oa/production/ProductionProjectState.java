@@ -12,8 +12,8 @@ import javax.persistence.Entity;
  * @date 2023/3/15 0:05
  * @description
  */
-@Entity(name = "t_manufacture_prj_state")
-@Table(appliesTo = "t_manufacture_prj_state",comment = "生产项目状态")
+@Entity(name = "t_production_proj_state")
+@Table(appliesTo = "t_production_proj_state",comment = "生产项目状态")
 @Data
-public class ManufactureProjectState extends BaseEntity {
+public class ProductionProjectState extends BaseEntity {
 }
