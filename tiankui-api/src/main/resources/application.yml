@@ -6,9 +6,9 @@ spring:
       name: tiankui-core
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.31.158:/tiankui?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=GMT
+    url: jdbc:mysql://address=(protocol=tcp)(host=240e:390:3e0d:61d0::2d1)(port=3306)/tiankui?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=GMT
     username: admin
-    password: Xiaoyu,1996.
+    password: Kjdz,2008.
   jpa:
     hibernate:
       ddl-auto: create-drop
