@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>web-tiankui</artifactId>
+        <artifactId>alkaid</artifactId>
         <groupId>com.kuaijie</groupId>
         <version>1.0</version>
     </parent>
 
-    <artifactId>tiankui-core</artifactId>
+    <artifactId>alkaid-core</artifactId>
     <groupId>com.kuaijie</groupId>
     <dependencies>
         <!--请求校验-->

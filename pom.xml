@@ -6,14 +6,14 @@
 
     <!--设置为父opm-->
     <groupId>com.kuaijie</groupId>
-    <artifactId>web-tiankui</artifactId>
+    <artifactId>alkaid</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
 
     <!--导入子模块-->
     <modules>
-        <module>tiankui-api</module>
-        <module>tiankui-core</module>
+        <module>alkaid-api</module>
+        <module>alkaid-core</module>
     </modules>
 
     <!--版本控制-->

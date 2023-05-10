@@ -5,19 +5,19 @@
     <!--设置父类-->
     <parent>
         <groupId>com.kuaijie</groupId>
-        <artifactId>web-tiankui</artifactId>
+        <artifactId>alkaid</artifactId>
         <version>1.0</version>
     </parent>
     <packaging>war</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tiankui-api</artifactId>
+    <artifactId>alkaid-api</artifactId>
     <groupId>com.kuaijie</groupId>
 
 
     <version>1.0</version>
-    <name>tiankui-api</name>
-    <description>tiankui-api</description>
+    <name>alkaid-api</name>
+    <description>alkaid-api</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -26,7 +26,7 @@
     <dependencies>
         <dependency>
             <groupId>com.kuaijie</groupId>
-            <artifactId>tiankui-core</artifactId>
+            <artifactId>alkaid-core</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>

@@ -15,15 +15,15 @@ import java.net.UnknownHostException;
 
 @SpringBootApplication(scanBasePackages = "com.kuaijie.tiankui")
 @EntityScan(basePackages = {"com.kuaijie.tiankui.bean"})
-public class TiankuiApiApplication extends SpringBootServletInitializer {
-    private static Logger logger = LoggerFactory.getLogger(TiankuiApiApplication.class);
+public class AlkaidApiApplication extends SpringBootServletInitializer {
+    private static Logger logger = LoggerFactory.getLogger(AlkaidApiApplication.class);
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(TiankuiApiApplication.class);
+        return application.sources(AlkaidApiApplication.class);
     }
 
     public static void main(String[] args) throws UnknownHostException {
-        ConfigurableApplicationContext application = SpringApplication.run(TiankuiApiApplication.class, args);
+        ConfigurableApplicationContext application = SpringApplication.run(AlkaidApiApplication.class, args);
         Environment env = application.getEnvironment();
         String ip = InetAddress.getLocalHost().getHostAddress();
         String port = env.getProperty("server.port");
